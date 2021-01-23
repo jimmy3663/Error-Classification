@@ -29,16 +29,16 @@
 # TF-Serving
 
 - Docker image build 
-	'''
-	docker build -t [Docker image 명] .
-	'''
+'''
+docker build -t [Docker image 명] .
+'''
 
 - Docker run 
-	'''
-	docker run -d -p [외부포트]:[내부포트] --name [container 명] [docker image 명]
-	'''
+'''
+docker run -d -p [외부포트]:[내부포트] --name [container 명] [docker image 명]
+'''
 
 - Flask를 이용한 post
-	'''
-	python3 flask-app.py [외부포트]
-	'''
+'''
+python3 flask-app.py [외부포트]
+'''
