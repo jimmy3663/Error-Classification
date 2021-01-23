@@ -1,5 +1,6 @@
 # FILE 구조 
-
+```bash
+.
 ├── README.md
 ├── NLPwithCNN
 │   ├── eng_error_with_cat.csv
@@ -17,7 +18,7 @@
     ├── flask-post.py
     ├── app.py
     └── Dockerfile
-
+```
 # Dataset 
 
 - 동일한 에러문에 임의로 특정 단어나 숫자만 바꿔 생성. 
@@ -29,16 +30,16 @@
 # TF-Serving
 
 - Docker image build 
-'''
+```
 docker build -t [Docker image 명] .
-'''
+```
 
 - Docker run 
-'''
+```
 docker run -d -p [외부포트]:[내부포트] --name [container 명] [docker image 명]
-'''
+```
 
 - Flask를 이용한 post
-'''
+```
 python3 flask-app.py [외부포트]
-'''
+```
