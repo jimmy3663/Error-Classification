@@ -1,5 +1,6 @@
 # FILE 구조 
 '''bash
+.
 ├── README.md
 ├── NLPwithCNN
 │   ├── eng_error_with_cat.csv
