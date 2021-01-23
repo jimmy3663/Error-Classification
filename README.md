@@ -1,5 +1,5 @@
 # FILE 구조 
-
+'''bash
 ├── README.md
 ├── NLPwithCNN
 │   ├── eng_error_with_cat.csv
@@ -17,7 +17,7 @@
     ├── flask-post.py
     ├── app.py
     └── Dockerfile
-
+'''
 # Dataset 
 
 - 동일한 에러문에 임의로 특정 단어나 숫자만 바꿔 생성. 
